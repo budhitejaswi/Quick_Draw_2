@@ -1,0 +1,76 @@
+body{
+    background: rgb(93,52,135);
+background: -moz-linear-gradient(90deg, rgba(93,52,135,1) 0%, rgba(164,140,187,1) 26%, rgba(250,244,241,1) 50%, rgba(252,198,71,1) 74%, rgba(221,143,8,1) 100%, rgba(147,86,209,1) 190%);
+background: -webkit-linear-gradient(90deg, rgba(93,52,135,1) 0%, rgba(164,140,187,1) 26%, rgba(250,244,241,1) 50%, rgba(252,198,71,1) 74%, rgba(221,143,8,1) 100%, rgba(147,86,209,1) 190%);
+background: linear-gradient(90deg, rgba(93,52,135,1) 0%, rgba(164,140,187,1) 26%, rgba(250,244,241,1) 50%, rgba(252,198,71,1) 74%, rgba(221,143,8,1) 100%, rgba(147,86,209,1) 190%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5d3487",endColorstr="#9356d1",GradientType=1);
+}
+
+#score_span {
+    font-size: 28px;
+    float: left;
+    margin-left: 80px;
+}
+
+#timer_span {
+    font-size: 28px;
+    float: right;
+    margin-right: 80px;
+}
+
+#show_sketch{
+    float: right;
+    margin-right: 20px;
+}
+
+
+#heading_name{
+    background-color: rgb(171, 221, 171);
+    margin-left: 190px;
+    margin-right: 190px;
+    color:rgb(45, 64, 71);
+    border: solid;
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    font-family: fantasy;
+    letter-spacing: 0.5px;
+    }
+
+    
+#guessed_sketch,#confidence {
+
+    font-size: 22px;
+    color:rgb(52, 34, 54);
+    font-family: monospace;
+}
+
+#sketch_to_be_drawn {
+    font-size: 23px;
+    color:rgb(56, 82, 59);
+    font-family: cursive;
+}
+
+#score_span,#timer_span{
+    color:rgb(255, 255, 255);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn-info:hover{
+    background-color: rgb(80, 90, 122);
+}
+
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top: 145px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 100px #ff237f;}
+  to {box-shadow: 1px 1px 100px rgb(21, 150, 255);}
+
+}
